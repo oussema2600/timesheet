@@ -11,6 +11,6 @@ COPY target/classes/tn/esprit/spring/timesheetdevopsapplication.jar /usr/app/tim
 
 # Commande pour exécuter le fichier JAR
 ENTRYPOINT ["java", "-jar", "timesheetdevopsapplication.jar"]
-=======
+
 ENTRYPOINT ["java","-jar","/timesheet-devops-1.0.jar"]
 
